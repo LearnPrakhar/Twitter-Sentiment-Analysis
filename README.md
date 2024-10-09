@@ -35,13 +35,9 @@ Sentiment Analysis.ipynb: Jupyter notebook containing the code for sentiment ana
 # Requirements
 To run this notebook, you'll need the following libraries installed:
 
-bash
-Copy code
 pip install numpy pandas matplotlib seaborn scikit-learn nltk
 Optional for visualizations:
 
-bash
-Copy code
 pip install plotly wordcloud
 How to Run the Project
 Clone the repository (or download the notebook):
@@ -49,16 +45,12 @@ Clone the repository (or download the notebook):
 Place the dataset twitter_training.csv in the working directory.
 Install the dependencies: Run the following command to install the required libraries:
 
-bash
-Copy code
 pip install -r requirements.txt
 Run the Jupyter Notebook: Open the notebook and execute the cells step-by-step to perform sentiment analysis on the dataset. You can launch Jupyter by running:
 
-bash
-Copy code
 jupyter notebook Sentiment Analysis.ipynb
 Results
 After running the notebook, you'll get:
 
-Cleaned and preprocessed text data ready for analysis.
+leaned and preprocessed text data ready for analysis.
 A comparison of the performance of various models (Logistic Regression, Naive Bayes, and SVM).
